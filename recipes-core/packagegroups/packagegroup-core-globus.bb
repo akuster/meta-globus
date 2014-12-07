@@ -23,4 +23,5 @@ RDEPENDS_packagegroup-globus-core = "\
     globus-gsi-cert-utils \
     globus-gsi-callback \
     globus-gsi-credential \
+    globus-gsi-proxy-core \
     "
