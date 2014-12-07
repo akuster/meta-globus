@@ -2,7 +2,7 @@ DESCRIPTION = " "
 HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/gsiopenssh"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
-DEPENDS = "globus-gsi-cert-utils"
+DEPENDS = "globus-gsi-sysconfig globus-gsi-cert-utils"
 
 LIC_FILES_CHKSUM = "file://library/globus_gsi_callback.c;beginline=4;endline=5;md5=736323dfba47917c4dfc5a209af4e5f6"
 
