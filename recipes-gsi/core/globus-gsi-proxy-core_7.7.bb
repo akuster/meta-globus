@@ -3,6 +3,8 @@ HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/gsiopenssh"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
 
+DEPENDS = "globus-gsi-sysconfig globus-gsi-credential"
+
 LIC_FILES_CHKSUM = "file://library/globus_gsi_proxy.c;beginline=4;endline=5;md5=736323dfba47917c4dfc5a209af4e5f6"
 
 SRC_URI = "${DEBIAN_MIRROR}/main/g/${BPN}/${BPN}_${PV}.orig.tar.gz;name=archive \
