@@ -3,6 +3,8 @@ HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/xio"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
 
+DEPENDS = "globus-gsi-sysconfig globus-gsi-cert-utils globus-gssapi-gsi globus-callout globus-gsi-credential"
+
 LIC_FILES_CHKSUM = "file://init.c;beginline=2;endline=3;md5=c7c837422acdd14cafd3833a2bc8bc69"
 
 SRC_URI = "${DEBIAN_MIRROR}/main/g/${BPN}/${BPN}_${PV}.orig.tar.gz;name=archive \
