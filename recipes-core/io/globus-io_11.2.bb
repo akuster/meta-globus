@@ -2,6 +2,7 @@ DESCRIPTION = " Globus Toolkit - Globus XIO Framework"
 HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/xio"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
+DEPENDS = "globus-xio-gsi-driver globus-gssapi-error globus-gss-assist"
 
 LIC_FILES_CHKSUM = "file://globus_io_error_hierarchy.c;beginline=2;endline=3;md5=c7c837422acdd14cafd3833a2bc8bc69"
 
