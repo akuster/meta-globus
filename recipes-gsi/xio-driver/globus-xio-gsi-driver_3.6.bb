@@ -3,7 +3,7 @@ HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/xio"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
 
-DEPENDS = "globus-xio globus-gssapi-error"
+DEPENDS = "globus-xio globus-gssapi-error globus-openssl-module globus-gsi-sysconfig globus-gsi-credential globus-gsi-cert-utils "
 
 LIC_FILES_CHKSUM = "file://globus_xio_gsi.c;beginline=2;endline=3;md5=c7c837422acdd14cafd3833a2bc8bc69"
 
