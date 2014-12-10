@@ -37,6 +37,11 @@ RDEPENDS_packagegroup-globus-core = "\
     globus-xio-gsi-driver \
     globus-io \
     globus-scheduler-event-generator \
+    globus-rsl \
+    globus-xio-popen-driver \
+    globus-gram-job-manager-callout-error \
+    globus-gass-cache \
+    glogus-usage \
     "
 
 SUMMARY_packagegroup-globus-security = "Globus Security packages"
@@ -50,5 +55,8 @@ RDEPENDS_packagegroup-globus-security = "\
 SUMMARY_packagegroup-globus-gram = "Globus GRAM packages"
 RDEPENDS_packagegroup-globus-gram = "\
     globus-gram-protocol \
+    globus-gram-job-manager-fork \
+    globus-gram-client \
+    globus-gram-job-manager \
     "
 
