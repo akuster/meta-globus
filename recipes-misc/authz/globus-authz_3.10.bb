@@ -2,7 +2,7 @@ DESCRIPTION = "Globus Toolkit - Globus authz library Development Files"
 HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/xio"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
-DEPENDS = "globus-authz-callout-error"
+DEPENDS = "globus-authz-callout-error globus-gsi-sysconfig globus-gssapi-gsi globus-callout"
 
 LIC_FILES_CHKSUM = "file://globus_gsi_authz.c;beginline=2;endline=3;md5=c7c837422acdd14cafd3833a2bc8bc69"
 
