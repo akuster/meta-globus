@@ -42,6 +42,13 @@ RDEPENDS_packagegroup-globus-core = "\
     globus-gram-job-manager-callout-error \
     globus-gass-cache \
     glogus-usage \
+    globus-ftp-control \
+    globus-xio-pipe-driver \
+    globus-gridftp-server-control \
+    globus-authz-callout-error \
+    globus-authz \
+    globus-gridftp-server \
+    globus-ftp-client \
     "
 
 SUMMARY_packagegroup-globus-security = "Globus Security packages"
@@ -59,4 +66,3 @@ RDEPENDS_packagegroup-globus-gram = "\
     globus-gram-client \
     globus-gram-job-manager \
     "
-
