@@ -41,7 +41,7 @@ RDEPENDS_packagegroup-globus-core = "\
     globus-xio-popen-driver \
     globus-gram-job-manager-callout-error \
     globus-gass-cache \
-    glogus-usage \
+    globus-usage \
     globus-ftp-control \
     globus-xio-pipe-driver \
     globus-gridftp-server-control \
