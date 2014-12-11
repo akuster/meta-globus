@@ -3,7 +3,7 @@ HOMEPAGE = "http://toolkit.globus.org/toolkit/docs/6.0/xio"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
 
-DEPENDS = "globus-io globus-gss-assist globus-gssapi-error globus-gram-protocol"
+DEPENDS = "globus-io globus-rsl globus-gss-assist globus-gssapi-error globus-gram-protocol"
 
 LIC_FILES_CHKSUM = "file://globus_gram_client.c;beginline=2;endline=3;md5=c7c837422acdd14cafd3833a2bc8bc69"
 
