@@ -3,7 +3,7 @@ HOMEPAGE = "http://toolkit.globus.org/toolkit"
 SECTION = "networking"
 LICENSE = "Apache-2.0"
 
-DEPENDS = "globus-io"
+DEPENDS = "globus-io globus-ftp-control globus-xio-popen-driver"
 
 LIC_FILES_CHKSUM = "file://globus_ftp_client.c;beginline=4;endline=5;md5=736323dfba47917c4dfc5a209af4e5f6"
 
